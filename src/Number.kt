@@ -10,6 +10,12 @@ fun main() {
     val hexadecimalLiteral = 0xFF
     val binaryLiteral = 0b010110110
 
+    //Underscore
+    val rupiah = 1_000_000_000
+
+    //Conversion
+    val intDouble = tingggiBadan.toDouble()
+
 
     println("Tinggi Badan Saya Adalah $tingggiBadan")
     println()
@@ -19,4 +25,8 @@ fun main() {
     println("Decimal Literal = $decimalLiteral")
     println("Hexa Decimal Literal = $hexadecimalLiteral")
     println("Binary Literal = $binaryLiteral")
+    println()
+    println("Test Rupiah $rupiah")
+    println()
+    println("Konversi Int To Double $intDouble")
 }
