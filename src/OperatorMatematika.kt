@@ -19,6 +19,14 @@ fun main() {
     val barang3 = 300
     //total = total + barang3
     total += barang3
-
     println(total)
+
+    total++ //total = total + 1
+    total++ //total = total + 1
+    total++ //total = total + 1
+    total++ //total = total + 1
+    println(total)
+
+    val sehat = true
+    println(!sehat)
 }
